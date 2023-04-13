@@ -1,0 +1,278 @@
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: rgb(83, 75, 75);
+}
+
+.card{
+	background: white;
+	width: 400px;
+	height: 700px;
+	margin: 10px;
+	/* border-radius: 15px; */
+}
+
+.card-image{
+	background-color: aqua;
+	height: 200px;
+}
+
+.quantum-1{
+	background-image: url("https://st11.ning.com/topology/rest/1.0/file/get/4400137880?profile=RESIZE_710x");
+	background-size: cover;
+}
+
+.quantum-2{
+	background-image: url("https://tse4.mm.bing.net/th?id=OIP.NrE4WGXwMLc8zNQCgQ1IiQHaEy&pid=Api&P=0&w=246&h=158");
+    background-size: cover;
+}
+
+.quantum-3{
+	background-image: url("https://tse1.mm.bing.net/th?id=OIP.sil6vWZxAP01gujXmpTTqwHaCJ&pid=Api&P=0&w=554&h=160");
+}
+
+.card h2{
+	padding: 10px;
+}
+
+.card p{
+	padding: 10px;
+}
+
+.card a{
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+	text-decoration: none;
+}
+
+.card:hover{
+	background-color: rgb(62,62,62);
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
+
+
+*{
+    font-family: 'Gideon Roman', cursive;
+}
+.newdonate{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+.newdonate img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.navlink{
+    margin: 10px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    background-color: rgb(255, 123, 0);
+}
+
+.idx{
+    background-image: rgb(252, 249, 249);
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.idx p{
+    font-size: 38px;
+}
+
+.Box{
+    display: flex;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.idxBox{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgb(81, 85, 85);
+    color: white;
+}
+
+.donate{
+    margin-left: 45%;
+    size: 900px;
+}
+
+.button{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    background-image: linear-gradient(60deg,rgb(38, 208, 230),rgb(44, 230, 59));
+}
+
+#btn-1{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#btn-2{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+#btn-3{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.img{
+    height: 253px;
+    width: 450px;
+    border: 3px solid red;
+}
+
+/* about Style begins */
+.about{
+    background-image: black;
+    color: white;
+}
+
+.about_para{
+    height:500px;
+    background-image: black;
+    color: white;
+}
+
+.aboutHead{
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(100deg,rgb(86, 90, 90),rgb(53, 43, 45));
+}
+
+.Head{
+    font-size: xx-large;
+    text-align: center;
+}
+.list ul{
+    text-align: center;
+    list-style: none;
+    font-size: x-large;
+}
+
+.me{
+    background-image: black;
+    text-align: center;
+}
+
+.me a:link{
+    color: white;
+    text-decoration: none;
+}
+.me a:hover{
+    color: rgb(71, 133, 127);
+    text-decoration: none;
+}
+.me a:visited{
+    color: rgb(61, 13, 236);
+    text-decoration: none;
+}
+.me a:active{
+    color: rgb(64, 131, 76);
+    text-decoration: none;
+}
+
+.about p{
+    background-image: black;
+    color: white;
+    height: 500px;
+    width: 95%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+}
+
+/* about Style ends */
+
+/* Contacts Style begins*/
+.head {
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.query{
+    position: relative;
+    margin: 50px auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: black;
+    color: white;
+}
+
+.query form{
+    margin: 20px auto;
+    width: 400px;
+    font-size: xx-large;
+}
+
+.inputpara{
+    height: 100px;
+    width: auto;
+}
+
+.contactSubmit{
+    margin: 10px auto;
+    padding: auto;
+    height: 60px;
+    width: auto;
+    
+}
+/* contact style ends */
+
+
+footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
